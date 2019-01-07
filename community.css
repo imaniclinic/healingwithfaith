@@ -1,3 +1,13 @@
+h1 {
+  text-align: center;
+}
+
+hr{
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
 .box {
   height: 1050px;
   margin: auto;
@@ -9,9 +19,27 @@
 .navbar-start .navbar-item {
   background-color: #8B0000;
   color: white;
-  font-size: 27px;
+  font-size: 20px;
+  border: .1px solid black;
 }
 
-.navbar {
-  width: 80%;
+.top {
+  border: 1px solid #15B096;
+  background-color: #15B096;
+  height: 5px;
+}
+
+.copyright {
+  border: 1px solid #15B096;
+  background-color: #15B096;
+  height: 100px;
+}
+
+.buffer {
+  padding-top: 60px;
+}
+
+.space {
+  padding-top: 6px;
+  padding-bottom: 4px;
 }
