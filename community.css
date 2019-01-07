@@ -1,0 +1,17 @@
+.box {
+  height: 1050px;
+  margin: auto;
+  width: 996px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.navbar-start .navbar-item {
+  background-color: #8B0000;
+  color: white;
+  font-size: 27px;
+}
+
+.navbar {
+  width: 80%;
+}
