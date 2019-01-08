@@ -8,8 +8,14 @@ hr{
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
+#copyright-info {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
 .box {
-  height: 1050px;
+  height: 800px;
   margin: auto;
   width: 996px;
   background-color: #f6f6f6;
@@ -41,5 +47,9 @@ hr{
 
 .space {
   padding-top: 6px;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
+}
+
+.sub {
+  padding-left: 50%;
 }
