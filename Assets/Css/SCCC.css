@@ -1,0 +1,43 @@
+#home {
+  font-size: 130%;
+}
+
+.card {
+  width: 60%;
+  height: 100%;
+}
+
+.colored_box {
+  background-color: #922b21;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  opacity: 0;
+  transition: .5s;
+}
+
+.container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.content {
+  overflow: auto;
+}
+
+.organizations {
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.recipe {
+  padding-left: 10%;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+}
