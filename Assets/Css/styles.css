@@ -24,21 +24,28 @@ p {
   padding-bottom: 2%;
 }
 
+.header {
+  background-color: #922b21;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
+}
+
 .organizations {
   padding-left: 10%;
   padding-top: 3%;
   padding-bottom: 2%;
 }
 
+.title.is-3 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  font-family: 'Open Sans';
+}
+
 .recipe {
   padding-left: 10%;
   padding-bottom: 3%;
   padding-top: 2%;
-}
-
-.title {
-  text-align: center;
-  color: black;
-  padding-top: 10px;
-  font-family: 'Open Sans';
 }
