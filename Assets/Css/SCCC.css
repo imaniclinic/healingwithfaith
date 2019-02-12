@@ -1,3 +1,7 @@
+p {
+  font-family: 'Open Sans Condensed';
+}
+
 #home {
   font-size: 130%;
 }
@@ -12,16 +16,12 @@
   padding-top: 2%;
   padding-bottom: 2%;
   opacity: 0;
-  transition: .5s;
+  transition: 1s;
 }
 
 .container {
   padding-top: 2%;
   padding-bottom: 2%;
-}
-
-.content {
-  overflow: auto;
 }
 
 .organizations {
@@ -40,4 +40,5 @@
   text-align: center;
   color: black;
   padding-top: 10px;
+  font-family: 'Open Sans';
 }
