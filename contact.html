@@ -1,17 +1,18 @@
 <!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1"-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,400,600,700,800" rel="stylesheet">
-        <link href="css/contact.css" rel="stylesheet">
+        <!--link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,400,600,700,800" rel="stylesheet">
+        <link href="css/contact.css" rel="stylesheet"-->
     </head>
     <body>
         <!-- NAVBAR COMES HERE LATER -->
-        <nav class="navbar is-dark">
+        <nav class="navbar is-dark is-overlay">
             <div class="navbar-item has-text-white has-text-weight-light is-size-3">
                 <span>Sample Navbar</span>
             </div>
@@ -19,63 +20,45 @@
                 <span>to be added by the header team</span>
             </div>
         </nav>
-        <section class="section">
-            <div class="container">
-                    <div class="columns">
-                        <div class="column">
-                            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=imani%20clinic&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-                            <br>
-                            <p><strong>Address</strong></p>
-                            <p>Imani Clinic</p>
-                            <p>3415 Martin Luther King Junior Boulevard, Sacramento, California 95817, United States</p>
-                            <br>
-                            <p><strong>Office Hours</strong></p>
-                            <p>Monday - Friday: 8:00 - 5:00 pm.</p>
-                            <p>Saturday: 8:00 - 2:00 pm.</p>
-                            <p>Sunday: Closed</p>
-                            <br>
-                            <p><strong>Phone</strong></p>
-                            <p>(916) 475-9582</p>
+        <div class="colums">
+            <div class="column is-half" style="padding-left: 0px; padding-top: 0px;">
+                <div style="position: relative; width: max; height: auto;">
+                    <figure class = "image is-3by4"><img  src="images/test.jpg"></figure>
+                    <span class="has-text-white" style="position: absolute; top: 80px; left: 50px;">
+                    <p style="font-size: 30px">
+                        <strong class="has-text-white">Address</strong><br>
+                        3415 Martin Luther King Junior Boulevard, Sacramento, California 95817, United States<br>
+                        <br><br><strong class="has-text-white">Hours</strong><br>
+                        Monday - Friday: 8:00 - 5:00 pm.<br>
+                        Saturday: 8:00 - 2:00 pm.<br>
+                        Sunday: Closed<br>
+                        <br><br><strong class="has-text-white">Phone #</strong><br>
+                        (916) 475-9582
+                    </p>
+                    </span>
+                </div>
+            </div>
+            <div class="column is-half">
+                <div>
+                    <p style="font-size: 100px; color: crimson">CONTACT US</p>
+                    <form>
+                        <div class="field">
+                            <label class="label" for="email">Email:</label>
+                            <div class="control"><input class="input" type="email" id="email" placeholder="insert email here" required></div>
                         </div>
-                        <div class="column">
-                            <h1 class="title has-text-centered">Contact Us</h1>
-                            <p>Imani Clinic can be reached during normal business hours by phone.  If you have a medical emergency, please dial <strong>911</strong></p>
-                            <br>
-                            <p>If you have questions about our services, accepted forms of insurance, our facility, or our physicians, 
-                                please feel free to contact us during normal business hours by phone or use the form below and we will respond within one business day.</p>
-                    
-                            <br>
-                            <form>
-                                <div class="field">
-                                    <label class="label" for="name" required>Name:</label>
-                                    <div class="control">
-                                        <input class="input" type="text" id="name" placeholder="insert name here" required>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label" for="email">Email:</label>
-                                    <div class="control">
-                                        <input class="input" type="email" id="email" placeholder="insert email here" required>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label" for="subject">Subject:</label>
-                                    <div class="control">
-                                        <input class="input" type="text" id="subject" placeholder="insert subject here" required>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label" for="message">Message:</label>
-                                    <div class="control">
-                                        <textarea class="textarea" type="text" id="message" placeholder="type message here"></textarea>
-                                    </div>
-                                </div>
-                                <button class="button" onclick="submitForm()">Submit</button>
-                            </form>
+                        <div class="field">
+                            <label class="label" for="subject">Phone:</label>
+                            <div class="control"><input class="input" type="text" id="phone" placeholder="insert phone here" required></div>
                         </div>
-                    </div>
-
-        </section>
+                        <div class="field">
+                            <label class="label" for="name" required>Name:</label>
+                            <div class="control"><input class="input" type="text" id="name" placeholder="insert name here" required></div>
+                        </div>
+                        <button class="button" onclick="submitForm()">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
         <!-- FOOTER COMES HERE LATER -->
         <footer class="footer has-text-weight-light">
             <div class="content has-text-centered">
