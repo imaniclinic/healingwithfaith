@@ -1,15 +1,13 @@
-// unfinished code, might delete later
+$(document).ready(function() {
+    $('#submit').click(function() {
+        // code here will send email 
+    });
+}); // email form
 
-/* function submitForm() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var subject = document.getElementById("subject").value;
-    var message = document.getElementById("message").value;
+$(window).resize(function() {
+    if ($(window).width() < 480) {
+        
+    } else {
 
-    const data = {
-        "name": name,
-        "email": email,
-        "subject": subject,
-        "message": message
     }
-} */ 
+}); // changes on resize
