@@ -166,3 +166,22 @@ body {
     padding-top: 0px;
     
 }
+
+.volunteerReqCard {
+    
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    width: 40%;
+    padding: 50px;
+    border-radius: 10pt;
+    
+}
+
+.endBlock {
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 30px;
+}
