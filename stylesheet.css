@@ -1,0 +1,168 @@
+/* Colors: Black, white, #922b21
+   Font: Open Sans (header), Open Sans Condensed (body)
+
+ */
+
+body {
+    
+    margin: 0;
+    
+}
+
+.menuBar {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.nameBlock {
+    
+    display: inline-block;
+  
+}
+
+.siteName {
+    
+    display: inline-block;
+    border-right: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.siteName:hover {
+    background-color: #922b21;
+}
+
+.tab {
+    float: right;
+    position: relative;
+    height: inherit;
+    border: none;
+}
+
+
+
+.tab .dropTabTitle {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    height: inherit;
+    
+}
+
+.tab:hover .dropTabTitle {
+    background-color: #922b21;
+}
+
+.dropTabContent {
+    
+    display: none;
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    width: inherit;
+    right: 0;
+    
+}
+
+.dropTabContent .subTab {
+    
+    color: white;
+    padding: 12px 16px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    //border-bottom: 1px solid white;
+ 
+}
+
+/* Idea for this from here: https://www.steckinsights.com/shorten-length-border-bottom-pure-css/
+ */
+.subTab:after {
+    
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 12px;
+    border-bottom: 1px solid white;
+    
+}
+
+.dropTabContent .subTab:last-child {
+    padding: 12px 16px;
+}
+
+.dropTabContent .subTab:last-child:after {
+    padding-top: 0px;
+    border-bottom: none;
+}
+
+.dropTabContent .subTab:hover {
+    background-color: #922b21
+}
+
+.tab:hover .dropTabContent {
+    display: block;
+}
+
+.tabButtonOuter {
+    
+    padding: 14px 16px;
+    
+}
+
+.tabButton {
+    
+    border: none;
+    background-color: #922b21;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 4px 14px;
+    //opacity: 0.90;
+    font-weight: bold;
+    
+}
+
+.tabButton:hover {
+    
+    background-color: #c13224;
+    //opacity: 1;
+    
+}
+
+.paragraphTitle {
+    
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 30pt;
+    
+    
+}
+
+.paragraphBody {
+    
+    font-family: "Open Sans", sans-serif;
+    padding: 40px 60px;
+    padding-top: 0px;
+    
+}
