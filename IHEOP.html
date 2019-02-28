@@ -1,6 +1,7 @@
 <!-- Classes to be addedd: nutrition, cooking, fitness-->
 <!-- date, duration, location -->
 <!--  Translate to spanish -->
+<!-- handlebars mustache and dockerfile -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -14,7 +15,7 @@
   <body>
     <nav class="navbar is-black" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item " id="home" href="https://bulma.io">
+        <a class="navbar-item " id="home" href="#">
           Imani Clinic
         </a>
 
@@ -25,82 +26,90 @@
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-end">
-        <div class="navbar-start">
+      <div class="navbar-menu" id="navmenu">
+        <div class="navbar-end">
+          <div class="navbar-start">
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Home
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Home
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Mission
+                </a>
+              </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                About Us
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Who We Are
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item is-hoverable">
+              Events
             </a>
 
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
-                Mission
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Services
               </a>
-            </div>
-          </div>
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              About Us
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Primary Service
+                </a>
+                <a class="navbar-item">
+                  Speciality Services
+                </a>
+                <a class="navbar-item">
+                  Health Education
+                </a>
+              </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Get Invovled
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  Undergraduate
+                </a>
+                <a class="navbar-item">
+                  Medical Students
+                </a>
+                <a class="navbar-item">
+                  Preceptors
+                </a>
+              </div>
+            </div>
+
+            <a class="navbar-item is-hoverable">
+              Partners
             </a>
 
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
-                Who We Are
-              </a>
-              <a class="navbar-item">
-                Events
-              </a>
+            <div class="navbar-item">
+              <a class="button is-primary">Contact</a>
             </div>
-          </div>
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Services
-            </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
-                Health Clinic
-              </a>
-              <a class="navbar-item">
-                Legal Clinic
-              </a>
-              <a class="navbar-item">
-                Outreach Program(IHEOP)
-              </a>
+            <div class="navbar-item">
+              <a class="button is-danger">Donate</a>
             </div>
+
           </div>
-
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Get Invovled
-            </a>
-
-            <div class="navbar-dropdown">
-              <a class="navbar-item">
-                Undergraduate
-              </a>
-              <a class="navbar-item">
-                Medical Students
-              </a>
-              <a class="navbar-item">
-                Preceptors
-              </a>
-            </div>
-          </div>
-
-          <div class="navbar-item">
-            <a class="button is-primary">Contact</a>
-          </div>
-
-          <div class="navbar-item">
-            <a class="button is-danger">Donate</a>
-          </div>
-
         </div>
       </div>
+
     </nav>
 
     <div class="header">
