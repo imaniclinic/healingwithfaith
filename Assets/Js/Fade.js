@@ -1,4 +1,5 @@
 window.onload = () => {
+  nav();
   toggle();
   scroll();
 }
@@ -15,12 +16,17 @@ const scroll = () => {
     }
   });
 }
-// navbar-dropdown probally changes the display. So set it to none or whatever it is called.
+
 const toggle = () => {
   let burger = document.getElementsByClassName("navbar-burger")[0];
   let menu = document.getElementsByClassName("navbar-menu")[0];
+  let items = document.getElementsByClassName("navbar-dropdown");
 
   burger.addEventListener("click", () => {
+    for (let i = 0; i < items.length; i++) {
+      items[i].style.display = "none";
+    }
+
     if (menu.className === "navbar-menu is-active")
     {
       menu.className = "navbar-menu";
@@ -28,4 +34,30 @@ const toggle = () => {
       menu.className = "navbar-menu is-active";
     }
   });
+
+  document.addEventListener("mousemove", () => {
+    if (window.innerWidth > 1088) {
+      for (let i = 0; i < items.length; i++) {
+        items[i].removeAttribute("style");
+      }
+
+      menu.className = "navbar-menu";
+    }
+  });
+}
+
+const nav = () => {
+  let menu = document.getElementsByClassName("navbar-menu")[0];
+  let dropDowns = document.getElementsByClassName("navbar-link");
+  let items = document.getElementsByClassName("navbar-dropdown");
+
+  for (let i = 0; i < dropDowns.length; i++) {
+    dropDowns[i].addEventListener("click", () => {
+        if (items[i].style.display == "block") {
+          items[i].style.display = "none";
+        } else {
+          items[i].style.display = "block";
+        }
+    });
+  }
 }
