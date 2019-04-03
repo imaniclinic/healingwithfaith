@@ -1,0 +1,11 @@
+* {
+    font-family: Open Sans;
+    left-margin: 0;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  height: 304px;
+  bottom: 0;
+}

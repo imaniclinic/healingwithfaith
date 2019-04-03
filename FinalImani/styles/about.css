@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+
+html, body {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.6)
+  ), url(../images/doctor.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  min-height: 1000px; 
+
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container.is-fluid{
+  margin-left: 25px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#text {
+  padding: 25px;
+  background: white;
+}
+
+.main-title{
+  font-size:50pt; 
+  font-family: Open Sans;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+.title.has-text-white{
+  font-weight: 600;
+  font-size: 3rem;
+}

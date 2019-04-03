@@ -1,0 +1,13 @@
+/* Colors: Black, white, #922b21
+   Font: Open Sans (header), Open Sans Condensed (body)
+
+ */
+
+body {
+  margin: 0;
+}
+
+.navbar-link.is-arrowless{
+  color: white;
+}
+
