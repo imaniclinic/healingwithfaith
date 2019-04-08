@@ -67,10 +67,12 @@ p {
   padding-bottom: 2%;
 }
 
-.people {
-  font-size: 115%;
-  padding-top: 20px;
-  padding-bottom: 5px;
+.subtitle {
+    color: #4a4a4a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
 }
 
 .title.is-3 {
