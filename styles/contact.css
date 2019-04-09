@@ -41,3 +41,25 @@
 .is-red {
     background-color: #922B21;
 }
+
+@media (min-width: 800px) {
+    #bg {
+        max-width: 50%;
+        background-image: url('index.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 800px) {
+    #bg {
+        max-width: 100%;
+        background-image: url('index.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.section {
+    width: 100vw;
+}
