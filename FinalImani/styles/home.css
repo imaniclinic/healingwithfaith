@@ -68,3 +68,29 @@
             background-position: center center;
             min-height: calc(100vh - 52px);
         }
+
+
+        #mission{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pillar > strong{
+            color: white;
+        }
+
+        .pillar{
+            flex-basis: 0;
+            flex: 1 1 0;
+            background-color: #922b21;
+            color: white;
+            padding: 20px;
+            border-radius: 10pt;
+            margin: 10px;
+        }
+
+    @media (min-width: 700px) { 
+        #mission{
+            flex-direction: row;
+        }
+    }
