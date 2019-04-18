@@ -37,14 +37,14 @@ app.post('/send', (req,res) => {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: 'nicholassteven998@gmail.com', // generated ethereal user
-      pass: '$Lancerevo8' // generated ethereal password
+      user: '', // generated ethereal user
+      pass: '' // generated ethereal password
     }
   });
 
   let mailOptions = { 
     from: '"Imani Clinic"',
-    to: 'ndarmawan@ucdavis.edu',
+    to: '',
     subject: 'Mailing list request',
     html: output
   }
