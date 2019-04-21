@@ -4,10 +4,10 @@
     <head>
 
         <meta charset="utf-8">
-        <title>Undergraduate Volunteers</title>
+        <title>Undergraduates</title>
         <!--Bulma stylesheet for navbar-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="Assets/Css/Styles.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <!--Open Sans and Open Sans Condensed fonts-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -86,13 +86,13 @@
                   </a>
 
                   <div class="navbar-dropdown">
-                    <a class="navbar-item">
-                      Undergraduate
+                    <a class="navbar-item" href="Undergraduates.html">
+                      Undergraduates
                     </a>
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="Medical%20Students.html">
                       Medical Students
                     </a>
-                    <a class="navbar-item">
+                    <a class="navbar-item" href="Preceptors.html">
                       Preceptors
                     </a>
                   </div>
@@ -116,7 +116,7 @@
 
         </nav>
 
-        <div style="width: 100%; height: 700px; overflow:hidden">
+        <div style="width: 100%; height: 100%; overflow:hidden">
             <img src="Images/UndergradTopPageImg.jpg" alt="Img from ImaniClinic website" width=100%>
         </div>
 
@@ -129,12 +129,12 @@
 
         </p>
 
-        <p class="paragraphBody">
+        <p class="paragraphBody" style="padding-bottom: 40px">
             If you are interested in becoming part of the family, please review the requirements below.
         </p>
 
-        <div style="width: 100%; height: 80px; overflow:hidden">
-                    <img src="Images/UndergradTopPageImg.jpg" alt="Img from ImaniClinic website" width=100% style="margin: -225px 0 0 0">
+        <div style="width: 100%; height: 100%; overflow:hidden">
+                    <img src="Images/UndergradSectionDividerImg.jpg" alt="Img from ImaniClinic website" width=100%>
 
         </div>
 
@@ -143,9 +143,9 @@
             <p clase="paragraphBody"><strong>***Application cycle has now closed. We are currently not accepting new applicants. ***</strong></p>
         </center>
 
-        <div style="padding: 40px">
+        <div id="reqWrap" style="padding: 40px">
 
-            <div class="volunteerReqCard" style="background-color: black; display: inline-block; width: 45%">
+            <div class="volunteerReqCard" id="commitmentBox" style="background-color: black; display: inline-block; width: 45%">
 
                 <center>A three-quarter commitment, each involving:</center>
 
@@ -160,8 +160,8 @@
                 NOTE: 1 quarter leave may be taken upon fulfillment of the three-quarter commitment.
 
             </div>
-
-            <div class="volunteerReqCard" style="background-color: #922b21; float: right; width: 48%">
+            
+            <div class="volunteerReqCard" id="healthClearanceBox" style="background-color: #922b21; float: right; width: 48%">
 
                 <center>Health Clearance Requirements</center>
 
@@ -187,5 +187,16 @@
         </div>
       
   </body>
+                
+<!--
+    <script>
+        var HCBoxHeight = document.getElementById("healthClearanceBox").clientHeight;
+        var ReqWrapDiv = document.getElementById("reqWrap").clientHeight;
+        var heightDiff = HCBoxHeight - CommitBoxHeight;
+        document.getElementById("reqWrap").style.height = document.getElementById("reqWrap").style.height + heightDiff;
+    </script>
+-->
     
+    <script type="text/javascript" src="Assets/Js/Fade.js"></script>
+
 </html>
