@@ -2,21 +2,21 @@ window.onload = () => {
   hoverText();
   nav();
   toggle();
-  scroll();
+  // scroll();
 }
 
-const scroll = () => {
-  const sub = document.getElementsByClassName('colored_box');
-  window.addEventListener('scroll', () => {
-    for (let i = 0; i < sub.length; i++) {
-      if((window.scrollY > (sub[i].offsetTop/2)) && (window.scrollY < sub[i].offsetTop)) {
-          sub[i].style.opacity = '1.0';
-      } else {
-          sub[i].style.opacity = '0.0';
-      }
-    }
-  });
-}
+// const scroll = () => {
+//   const sub = document.getElementsByClassName('colored_box');
+//   window.addEventListener('scroll', () => {
+//     for (let i = 0; i < sub.length; i++) {
+//       if((window.scrollY > (sub[i].offsetTop/2)) && (window.scrollY < sub[i].offsetTop)) {
+//           sub[i].style.opacity = '1.0';
+//       } else {
+//           sub[i].style.opacity = '0.0';
+//       }
+//     }
+//   });
+// }
 
 const toggle = () => {
   let burger = document.getElementsByClassName("navbar-burger")[0];
@@ -59,6 +59,23 @@ const nav = () => {
         } else {
           items[i].style.display = "block";
         }
+    });
+  }
+}
+
+const hoverText = () => {
+  let classname = document.getElementsByClassName("subtitle");
+  let text = document.getElementsByClassName("about");
+
+  for (let i = 0; i < classname.length; i++) {
+    classname[i].addEventListener("mouseover", () => {
+      classname[i].style.display = "none";
+      text[i].style.display = "block";
+
+      setTimeout(() => {
+        classname[i].style.display = "block";
+        text[i].style.display = "none";
+      }, 700);
     });
   }
 }

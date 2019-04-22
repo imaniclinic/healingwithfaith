@@ -1,0 +1,95 @@
+hr {
+  width: 70%;
+}
+
+p {
+  font-family: 'Open Sans Condensed';
+  font-size: 120%;
+}
+
+#home {
+  font-size: 130%;
+}
+
+#home:hover {
+  background-color: #696969;
+}
+
+.navbar-burger.burger:hover {
+  background-color: #696969;
+}
+
+.about {
+  display: none;
+}
+
+.card {
+  width: 60%;
+  height: 100%;
+}
+
+.colored_box {
+  background-color: #922b21;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  opacity: 1;
+  transition: 1s;
+}
+
+.container {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.group {
+  height: 60%;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #922b21;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white;
+}
+
+.navbar-dropdown {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.navbar-dropdown .navbar-item {
+  color: white;
+}
+
+.organizations {
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.subtitle {
+    color: #4a4a4a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    display: block;
+}
+
+.title.is-3 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  font-family: 'Open Sans';
+}
+
+.recipe {
+  padding-left: 10%;
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
