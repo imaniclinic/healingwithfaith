@@ -4,7 +4,10 @@ hr {
 
 p {
   font-family: 'Open Sans Condensed';
-  font-size: 120%;
+  font-size: 130%;
+  color: black;
+  background-color: white;
+  opacity: .7;
 }
 
 #home {
@@ -13,6 +16,16 @@ p {
 
 #home:hover {
   background-color: #696969;
+}
+
+html, body {
+  background: url(images/clinic.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  min-height: 1000px;
+
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .navbar-burger.burger:hover {
