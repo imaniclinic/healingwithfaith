@@ -168,19 +168,6 @@ body {
     background: black;
 }
 
-.paragraphTitle {
-    font-family: "Open Sans", sans-serif;
-    font-size: 25px;    
-}
-
-.paragraphBody {
-    
-    font-family: "Open Sans", sans-serif;
-    padding: 40px 60px;
-    padding-top: 0px;
-    
-}
-
 .endBlock {
     
     background-color: black;
