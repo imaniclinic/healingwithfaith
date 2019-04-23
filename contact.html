@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,400,600,700,800" rel="stylesheet">
+        <link href="styles/contact.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- NAVBAR COMES HERE LATER -->
+        <nav class="navbar is-dark opensans-light">
+            <div class="navbar-brand navbar-item has-text-white has-text-weight-light is-size-3">
+                <span class="uppercase">IMANI CLINIC</span>
+            </div>
+            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
+                <span class="uppercase">About Us</span>
+            </div>
+            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
+                <span class="uppercase">Services</span>
+            </div>
+            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
+                <span class="uppercase">Community</span>
+            </div>
+            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
+                <span class="uppercase">Get Involved</span>
+            </div>
+            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
+                <span class="uppercase">Contact Us</span>
+            </div>
+            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
+                <button class="button is-red has-text-white uppercase">Donate</button>
+            </div>
+        </nav> 
+        <div id="bg">
+            <section class="section" id="section">
+                <div class="container">
+                    <div class="columns is-variable is-vcentered is-8">
+                        <div class="column has-text-white is-6">
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=imani%20clinic&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div><style>.mapouter{text-align:right;height:600;width:500;}.gmap_canvas {overflow:hidden;background:none!important;height:600;width:500;}</style></div> 
+                            <br>
+                            <p class="opensans-header">ADDRESS</p>
+                            <p class="opensans-body uppercase">Imani Clinic</p>
+                            <p class="opensans-body uppercase">3415 Martin Luther King Junior Boulevard, Sacramento, California 95817, United States</p>
+                            <br>
+                            <p class="opensans-header">OFFICE HOURS</p>
+                            <p class="opensans-body uppercase">Monday - Friday: 8:00 - 5:00 pm.</p>
+                            <p class="opensans-body uppercase">Saturday: 8:00 - 2:00 pm.</p>
+                            <p class="opensans-body uppercase">Sunday: Closed</p>
+                            <br>
+                            <p class="opensans-header">PHONE</p>
+                            <p class="opensans-body">(916) 475-9582</p>
+                        </div>
+                        <div class="column">
+                            <h1 class="opensans-contact-us red title has-text-left">CONTACT US</h1>
+
+                            <!-- 
+                            <p class="opensans-body">Imani Clinic can be reached during normal business hours by phone.  If you have a medical emergency, please dial <strong>911</strong></p>
+                            <br>
+                            <p class="opensans-body">If you have questions about our services, accepted forms of insurance, our facility, or our physicians, 
+                                please feel free to contact us during normal business hours by phone or use the form below and we will respond within one business day.</p>
+                            -->
+                            <br>    
+                            <form id="form" method="POST">
+                                <p class="opensans-body">If you'd like to be included in our mailing list, or if you have questions</p>
+                                <br>
+                                <div class="field">
+                                    <label class="label opensans-body" for="name" required>Name:</label>
+                                    <div class="control">
+                                        <input class="input" type="text" id="name" placeholder="insert name here" required>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label opensans-body" for="email">Email:</label>
+                                    <div class="control">
+                                        <input class="input" type="email" id="email" placeholder="insert email here" required>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label opensans-body" for="subject">Subject:</label>
+                                    <div class="control">
+                                        <input class="input" type="text" id="subject" placeholder="insert subject here" required>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label class="label opensans-body" for="message">Message:</label>
+                                    <div class="control">
+                                        <textarea class="textarea" type="text" id="message" placeholder="type message here"></textarea>
+                                    </div>
+                                </div>
+                                <button class="button is-pulled-right opensans-body" id="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+            </section>
+        </div>
+        <!-- FOOTER COMES HERE LATER 
+        <footer class="footer has-text-weight-light">
+            <div class="content has-text-centered">
+                <p>Sample Footer</p>
+                <p>to be added by footer team later</p>
+            </div>
+        </footer> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/contact.js"></script>
+    </body>
+</html>
