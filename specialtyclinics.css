@@ -155,7 +155,28 @@ body {
     
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 50pt;
+    padding: 50px;
     
+}
+
+.hero-body {
+    background: linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.6)
+        ),
+        url(doctor.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+/*
+#text {
+    padding: 4%;
+}
+*/
+#subheading {
+    background: black;
+    background-size: cover;
+    position: relative;
 }
 
 .paragraphTitle {
