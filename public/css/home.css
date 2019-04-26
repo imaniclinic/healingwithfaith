@@ -1,0 +1,96 @@
+        .hero-carousel .carousel-navigation.is-overlay .carousel-nav-right {
+            right: 20px;
+        }
+
+        .hero-carousel .carousel-navigation.is-overlay .carousel-nav-left {
+            left: 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Open Sans;
+        }
+
+        .container.is-fluid{
+          margin-left: 25px;
+          padding-top: 1%;
+          padding-bottom: 1%;
+        }
+
+
+        .content {
+          padding-left: 25px;
+          padding-right: 25px;
+          color: black;
+        }
+
+        .hero-carousel.carousel-animate-slide {
+           min-height: calc(100vh - 52px);
+        }
+
+        .footer{
+          background: black;
+        }
+
+        .carousel-nav-left i {  
+          font-size: 3.5em;
+        }
+
+        .carousel-nav-right i {  
+          font-size: 3.5em;
+        }
+        .carousel-navigation.is-overlay{
+            transition: all 0.5s; 
+            background:#f00;
+            opacity:0;
+        }
+    
+        .carousel-container:hover + .carousel-navigation.is-overlay{
+            opacity:100
+        }
+
+        .carousel-navigation.is-overlay:hover {
+            opacity:100;
+        }
+
+
+        section#hoe.hero.is-large{
+            background-image: url("https://wikiki.github.io/images/sushi.jpg");
+            background-size: cover;
+            background-position: center center;
+            min-height: calc(100vh - 52px);
+        }
+        
+        section.hero.is-large{
+            background-image: url("https://wikiki.github.io/images/singer.jpg");
+            background-size: cover;
+            background-position: center center;
+            min-height: calc(100vh - 52px);
+        }
+
+
+        #mission{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pillar > strong{
+            color: white;
+        }
+
+        .pillar{
+            flex-basis: 0;
+            flex: 1 1 0;
+            background-color: #922b21;
+            color: white;
+            padding: 20px;
+            border-radius: 10pt;
+            margin: 10px;
+        }
+
+    @media (min-width: 700px) { 
+        #mission{
+            flex-direction: row;
+        }
+    }

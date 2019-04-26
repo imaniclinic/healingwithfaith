@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bulma Carousel</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="../public/css/mybulma/node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Open Sans;
+        }
+        .container.is-fluid{
+          margin-left: 25px;
+          padding-top: 1%;
+          padding-bottom: 1%;
+        }
+        #text {
+          padding: 25px;
+          background: white;
+        }
+        .main-title{
+          font-size:50pt; 
+          font-family: Open Sans;
+          color: white;
+          text-align: center;
+          padding-top: 60px;
+          padding-bottom: 20px;
+          font-weight: 700;
+        }
+        .title.has-text-white{
+          font-weight: 600;
+          font-size: 3rem;
+        }
+        .hero-carousel.carousel-animate-slide {
+/*            margin-right: 200px;
+            margin-left: 200px;*/
+            height: 674px;
+        }
+        
+        .carousel-nav-left i {  
+          font-size: 3.5em;
+        }
+        .carousel-nav-right i {  
+          font-size: 3.5em;
+        }
+        .carousel-navigation.is-overlay{
+            transition: all 0.5s; 
+            background:#f00;
+            opacity:0;
+        }
+    
+        .carousel-container:hover + .carousel-navigation.is-overlay{
+            opacity:100
+        }
+        .carousel-navigation.is-overlay:hover {
+            opacity:100;
+        }
+        .hero-carousel .carousel-navigation.is-overlay .carousel-nav-right {
+            right: 20px;
+        }
+        .hero-carousel .carousel-navigation.is-overlay .carousel-nav-left {
+            left: 20px;
+        }
+        section#hoe.hero.is-large{
+            background-image: url("https://wikiki.github.io/images/sushi.jpg");
+            background-size: cover;
+            background-position: center center;
+            height: 674px;
+        }
+        
+        section.hero.is-large{
+            background-image: url("https://wikiki.github.io/images/singer.jpg");
+            background-size: cover;
+            background-position: center center;
+            height: 674px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div id="includedContent"></div>
+    <script> 
+        $(function(){
+          $("#includedContent").load("navbar.handlebars"); 
+        });
+      </script> 
+
+    <div class='hero-carousel carousel-animate-slide'>
+        <div class='carousel-container'>
+            <div class='carousel-item is-active'>
+                <section class="hero is-large">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <h1 class="title">
+                                Healing Begins with 
+                            </h1>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class='carousel-item has-background'>
+                <section class="hero is-large">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <h1 class="title">
+                                Expose
+                            </h1>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class='carousel-item has-background'>
+                <section id="hoe" class="hero is-large">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <h1 class="title">
+                                Provide
+                            </h1>
+                        </div>
+                    </div>
+                </section>>
+            </div>
+            <div class='carousel-item has-background'>
+                <section class="hero is-large">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <h1 class="title">
+                                Foster
+                            </h1>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="carousel-navigation is-overlay">
+            <div class="carousel-nav-left">
+                <i class="fa fa-arrow-circle-left"></i>
+            </div>
+            <div class="carousel-nav-right">
+                <i class="fa fa-arrow-circle-right"></i>
+            </div>
+        </div>
+    </div>
+    <section id="text" class="section">
+    Imani Clinic is open every Saturday from 9:00 AM to 1:00 PM, and we generally see 10-15 patients--usually, at least half are Spanish-speaking. Unlike the other clinics, we run as a "weekend extension" of the Sacramento County primary care facility. The clinic is staffed by undergraduates who do intake (checking height, weight and vital signs), lab work and create patient charts, and by medical students who see patients under the supervision of 1-2 preceptor physicians. Clinic affairs are managed by the undergraduate board which works under the supervision of 4 medical student co-directors.  
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@3.0.0/dist/js/bulma-carousel.min.js"></script>
+
+    <script>
+        window.onload = function () {
+            var carousels = bulmaCarousel.attach();
+        }
+    </script>
+
+</body>
+
+</html>

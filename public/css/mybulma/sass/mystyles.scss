@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-carousel/src/sass/index.sass";
+
+$family-primary: Open Sans;
+$navbar-dropdown-background-color: black;
+$navbar-dropdown-item-hover-background-color: #922b21;
+$navbar-dropdown-border-top: 0px;
+$navbar-background-color: black;
+$navbar-item-hover-background-color: #922b21;
+$navbar-box-shadow-size: 0 0 0 0;
+$navbar-item-img-max-height: 1rem;
+$navbar-dropdown-padding-bottom: 0rem;
+$navbar-dropdown-item-active-color: white;
+$navbar-item-hover-color: white;
+$footer-background-color: black;
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";

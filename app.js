@@ -7,6 +7,8 @@ const nodemailer = require('nodemailer');
 const app = express();
 
 app.engine('handlebars', exphbs());
+
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'handlebars');
 
 // parse application/x-www-form-urlencoded
@@ -18,8 +20,14 @@ app.use(bodyParser.json());
 // Static folder
 app.use('/public', express.static(path.join(__dirname,'public')));
 
+// Homepage route
 app.get('/',(req,res) => {
-  res.render('contact')
+  res.render("index");
+});
+
+// Renders view based on param name -- catch-all solution so we don't need a million GET routes
+app.get('/:title',(req,res) => {
+  res.render(req.params.title);
 });
 
 app.post('/send', (req,res) => {
