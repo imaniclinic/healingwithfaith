@@ -71,11 +71,10 @@ const hoverText = () => {
     classname[i].addEventListener("mouseover", () => {
       classname[i].style.display = "none";
       text[i].style.display = "block";
-
       setTimeout(() => {
         classname[i].style.display = "block";
         text[i].style.display = "none";
-      }, 700);
+      }, 10000);
     });
   }
 }

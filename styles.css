@@ -33,6 +33,7 @@ html, body {
 }
 
 .about {
+  height:150px;
   display: none;
 }
 
