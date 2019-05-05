@@ -7,106 +7,17 @@
     <link rel="stylesheet" href="../public/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item " id="home" href="#">
-          Imani Clinic
-        </a>
 
-        <a role="button" class="navbar-burger burger" id="hidden aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+    <div id="includedContent"></div>
 
-      <div class="navbar-menu" id="navmenu">
-        <div class="navbar-end">
-          <div class="navbar-start">
-
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                Home
-              </a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  Mission
-                </a>
-              </div>
-            </div>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                About Us
-              </a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  Who We Are
-                </a>
-              </div>
-            </div>
-
-            <a class="navbar-item is-hoverable">
-              Events
-            </a>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                Services
-              </a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  Primary Service
-                </a>
-                <a class="navbar-item">
-                  Speciality Services
-                </a>
-                <a class="navbar-item">
-                  Health Education
-                </a>
-              </div>
-            </div>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                Get Invovled
-              </a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  Undergraduate
-                </a>
-                <a class="navbar-item">
-                  Medical Students
-                </a>
-                <a class="navbar-item">
-                  Preceptors
-                </a>
-              </div>
-            </div>
-
-            <a class="navbar-item is-hoverable">
-              Partners
-            </a>
-
-            <div class="navbar-item">
-              <a class="button is-primary">Contact</a>
-            </div>
-
-            <div class="navbar-item">
-              <a class="button is-danger">Donate</a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </nav>
+    <script> 
+        $(function(){
+          $("#includedContent").load("navbar.handlebars"); 
+        });
+    </script>
 
     <div class="header">
       <h1 class="title is-3">Imani Health Education and Outreach Program</h1>
@@ -137,7 +48,7 @@ Nutrition Classes are offered every first (1st) and third (3rd) Saturday at9:30a
               </div>
               <div class="card-content">
                 <div class="content">
-                  <a href="../public/pdfs\Winter_2019_IHEOP_Flyer_English.pdf" target="_blank">Events Winter 2019(English)</a>
+                  <a href="../public/pdfs/Winter_2019_IHEOP_Flyer_English.pdf" target="_blank">Events Winter 2019(English)</a>
                 </div>
               </div>
             </div>
