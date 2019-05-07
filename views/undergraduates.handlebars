@@ -12,109 +12,18 @@
         <!--Open Sans and Open Sans Condensed fonts-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     </head>
     
     <body>
       
-        <nav class="navbar is-black" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a class="navbar-item " id="home" href="#">
-              Imani Clinic
-            </a>
-
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
-
-          <div class="navbar-menu" id="navmenu">
-            <div class="navbar-end">
-              <div class="navbar-start">
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    Home
-                  </a>
-
-                  <div class="navbar-dropdown">
-                    <a class="navbar-item">
-                      Mission
-                    </a>
-                  </div>
-                </div>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    About Us
-                  </a>
-
-                  <div class="navbar-dropdown">
-                    <a class="navbar-item">
-                      Who We Are
-                    </a>
-                  </div>
-                </div>
-
-                <a class="navbar-item is-hoverable">
-                  Events
-                </a>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    Services
-                  </a>
-
-                  <div class="navbar-dropdown">
-                    <a class="navbar-item">
-                      Primary Service
-                    </a>
-                    <a class="navbar-item">
-                      Speciality Services
-                    </a>
-                    <a class="navbar-item">
-                      Health Education
-                    </a>
-                  </div>
-                </div>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link">
-                    Get Invovled
-                  </a>
-
-                  <div class="navbar-dropdown">
-                    <a class="navbar-item" href="Undergraduates.html">
-                      Undergraduates
-                    </a>
-                    <a class="navbar-item" href="Medical%20Students.html">
-                      Medical Students
-                    </a>
-                    <a class="navbar-item" href="Preceptors.html">
-                      Preceptors
-                    </a>
-                  </div>
-                </div>
-
-                <a class="navbar-item is-hoverable">
-                  Partners
-                </a>
-
-                <div class="navbar-item">
-                  <a class="button is-primary">Contact</a>
-                </div>
-
-                <div class="navbar-item">
-                  <a class="button is-danger">Donate</a>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </nav>
+        <div id="includedContent"></div>
+        <script> 
+            $(function(){
+                $("#includedContent").load("navbar.handlebars"); 
+            });
+        </script>
 
         <div style="width: 100%; height: 100%; overflow:hidden">
             <img src="../public/images/UndergradTopPageImg.jpg" alt="Img from ImaniClinic website" width=100%>
@@ -182,16 +91,7 @@
         </div>
       
   </body>
-                
-<!--
-    <script>
-        var HCBoxHeight = document.getElementById("healthClearanceBox").clientHeight;
-        var ReqWrapDiv = document.getElementById("reqWrap").clientHeight;
-        var heightDiff = HCBoxHeight - CommitBoxHeight;
-        document.getElementById("reqWrap").style.height = document.getElementById("reqWrap").style.height + heightDiff;
-    </script>
--->
-    
+
     <script type="text/javascript" src="../public/js/fade.js"></script>
 
 </html>
