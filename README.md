@@ -1,7 +1,7 @@
 # ImaniClinic
 Redesign of the Imani Clinic Website. This is the redesign of the contact page. 
 
-## Dependencies:
+## Getting Started:
 - You need node.js and npm
 - Navigate to the project folder in terminal or command line
 - Run 'npm install' to get all additional dependencies
