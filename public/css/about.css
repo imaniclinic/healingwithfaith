@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
 }
 
 html, body {
@@ -17,20 +17,22 @@ html, body {
   background-size: cover;
 }
 
-.container.is-fluid{
-  margin-left: 25px;
-  padding-top: 1%;
-  padding-bottom: 1%;
+#text {
+  padding: 40px 60px;
+  background: white;
+  font-color: #4A4A4A;
+  font-size: 16px;
 }
 
-#text {
-  padding: 25px;
-  background: white;
+.container.is-fluid{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 25px;
 }
 
 .main-title{
   font-size:50pt; 
-  font-family: Open Sans;
+  font-family: "Open Sans Condensed", sans-serif;
   color: white;
   text-align: center;
   padding-top: 60px;
@@ -39,6 +41,15 @@ html, body {
 }
 
 .title.has-text-white{
+  font: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2rem;
+  line-height: 1.125;
+}
+
+.endBlock {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
