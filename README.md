@@ -1,5 +1,5 @@
 # ImaniClinic
-Redesign of the Imani Clinic Website. This is the redesign of the contact page. 
+Redesign of the Imani Clinic Website. 
 
 ## Getting Started:
 - You need node.js and npm
