@@ -1,0 +1,122 @@
+hr {
+    width: 70%;
+  }
+  
+  i {
+    padding-bottom: 20%; 
+  }
+  
+  p {
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: #4A4A4A;
+    background-color: white;
+    opacity: .7;
+  }
+  
+  strong {
+    color:#363636;
+    font-weight:700;
+  }
+  
+  #home {
+    font-size: 130%;
+  }
+  
+  #home:hover {
+    background-color: #696969;
+  }
+  
+  .navbar-burger.burger:hover {
+    background-color: #696969;
+  }
+  
+  .about {
+    height:150px;
+    display: none;
+  }
+  
+  .card {
+    width: 60%;
+    height: 100%;
+  }
+  
+  .colored_box {
+    background-image: url('../images/room.jpg');
+    background-size: 100% 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    opacity: 1;
+    transition: 1s;
+    height: 200px;
+    text-align: center;
+  }
+  
+  .container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  
+  .contents {
+    padding: 60px 60px 60px 60px;
+  }
+  
+  .group {
+    height: 60%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header {
+    background-image: url('../images/tool.jpg');
+    background-size: 100% 100%;
+    height: 200px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+  }
+  
+  .is-pulled-left {
+    padding-left: 4%;
+  }
+  
+  .is-pulled-right {
+    padding-right: 4%;
+  }
+  
+  .organizations {
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  
+  .subtitle {
+      color: #4a4a4a;
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 1.25;
+      text-align: center;
+      display: block;
+  }
+  
+  .title.is-3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+  }
+  
+  .recipe {
+    padding-left: 10%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+  }
+  
