@@ -1,17 +1,12 @@
-hr {
-    width: 70%;
-  }
-  
   i {
     padding-bottom: 20%; 
   }
   
   p {
     font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;
+    font-size: 1rem;
     color: #4A4A4A;
     background-color: white;
-    opacity: .7;
   }
   
   strong {
@@ -51,7 +46,7 @@ hr {
     height: 200px;
     text-align: center;
   }
-  
+
   .container {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -60,7 +55,7 @@ hr {
   }
   
   .contents {
-    padding: 60px 60px 60px 60px;
+    padding: 60px 100px 60px 100px;
   }
   
   .group {
@@ -77,15 +72,15 @@ hr {
     height: 200px;
     padding-top: 2%;
     padding-bottom: 2%;
-    color: white;
+    color: #4A4A4A;
   }
   
   .is-pulled-left {
-    padding-left: 4%;
+    padding-left: 6.5%;
   }
   
   .is-pulled-right {
-    padding-right: 4%;
+    padding-right: 8%;
   }
   
   .organizations {
@@ -103,15 +98,13 @@ hr {
       display: block;
   }
   
-  .title.is-3 {
+  h1.title.is-3 {
     text-align: center;
-    color: white;
+    color: #4A4A4A;
     font-weight: bold;
     padding-top: 10px;
-    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 1.125;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px; 
   }
   
   .recipe {
