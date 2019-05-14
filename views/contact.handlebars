@@ -9,133 +9,16 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,400,600,700,800" rel="stylesheet">
         <link href="public/css/navbar.css" rel="stylesheet">
         <link href="public/css/contact.css" rel="stylesheet">
+        <link href="public/css/main.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
-        <!-- NAVBAR COMES HERE LATER 
-        <nav class="navbar is-dark opensans-light">
-            <div class="navbar-brand navbar-item has-text-white has-text-weight-light is-size-3">
-                <span class="uppercase">IMANI CLINIC</span>
-            </div>
-            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
-                <span class="uppercase">About Us</span>
-            </div>
-            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
-                <span class="uppercase">Services</span>
-            </div>
-            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
-                <span class="uppercase">Community</span>
-            </div>
-            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
-                <span class="uppercase">Get Involved</span>
-            </div>
-            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
-                <span class="uppercase">Contact Us</span>
-            </div>
-            <div class="navbar-end navbar-item has-text-white has-text-weight-light">
-                <button class="button is-red has-text-white uppercase">Donate</button>
-            </div>
-        </nav> -->
-        <nav class="navbar">
-        <div class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-link is-arrowless" href="home.html">
-                IMANI CLINIC
-                </a>
-            </div>
-
-            <div class="navbar-end">
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">
-                ABOUT US
-                </a>
-                <div class="navbar-dropdown">
-                <a class="navbar-item" style="color:white" href="about.html">
-                    WHO WE ARE
-                </a>
-                </div>
-            </div>
-            
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">
-                EVENTS
-                </a>
-                <div class="navbar-dropdown">
-                <a class="navbar-item" style="color:white">
-                    CALENDAR
-                </a>
-                <a class="navbar-item" style="color:white">
-                    IMANI BOLT
-                </a>
-                </div>
-            </div>
-            
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">
-                SERVICES
-                </a>
-                <div class="navbar-dropdown">
-                <a class="navbar-item" style="color:white">
-                    PRIMARY SERVICES
-                </a>
-                <a class="navbar-item" style="color:white">
-                    SPECIALTY SERVICES
-                </a>
-                <a class="navbar-item" style="color:white">
-                    HEALTH EDUCATION
-                </a>
-                </div>
-            </div>
-            
-            <div class="navbar-item has-dropdown is-hoverable">
-                
-                <a class="navbar-link is-arrowless">
-                GET INVOLVED
-                </a>
-                
-                <div class="navbar-dropdown">
-                <a class="navbar-item" style="color:white">
-                    UNDERGRADUATE STUDENTS
-                </a>
-                <a class="navbar-item" style="color:white">
-                    MEDICAL STUDENTS
-                </a>
-                <a class="navbar-item" style="color:white">
-                    PRECEPTORS
-                </a>
-                </div>
-            </div>
-            
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link is-arrowless">
-                PARTNERS
-                </a>
-                <div class="navbar-dropdown">
-                <a class="navbar-item" style="color:white">
-                    Overview
-                </a>
-                <a class="navbar-item" style="color:white">
-                    Elements
-                </a>
-                <a class="navbar-item" style="color:white">
-                    Components
-                </a>
-                </div>
-            </div>
-
-            <div class="navbar-item">
-                <div class="buttons">
-                <a class="button is-danger">
-                    <strong>CONTACT US</strong>
-                </a>
-                <a class="button is-light">
-                    <strong>DONATE</strong>
-                </a>
-                </div>
-            </div>
-
-            </div>
-        </div>
-        </nav>
+        <script> 
+            $(function(){
+                $("#includedContent").load("navbar.handlebars"); 
+            });
+        </script>
+        <div id="includedContent"></div>
         <div id="bg">
             <section class="section" id="section">
                 <div class="container">
@@ -198,6 +81,10 @@
                         </div>
                     </div>
             </section>
+        </div>
+
+        <center><div class="endBlock">
+            <span>Copyright © Imani Clinic. All rights reserved.</span>
         </div>
         <!-- FOOTER COMES HERE LATER 
         <footer class="footer has-text-weight-light">
