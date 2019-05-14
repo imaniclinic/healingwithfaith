@@ -7,17 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300,400,600,700,800" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
-        <link href="../public/css/navbar.css" rel="stylesheet">
-        <link href="../public/css/contact.css" rel="stylesheet">
+        <link href="public/css/navbar.css" rel="stylesheet">
+        <link href="public/css/contact.css" rel="stylesheet">
+        <link href="public/css/main.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
-        <div id="includedContent"></div>
         <script> 
             $(function(){
                 $("#includedContent").load("navbar.handlebars"); 
             });
         </script>
+        <div id="includedContent"></div>
         <div id="bg">
             <section class="section" id="section">
                 <div class="container">
@@ -89,6 +90,10 @@
                     </div>
             </section>
         </div>
+        <center><div class="endBlock">
+            <span>Copyright © Imani Clinic. All rights reserved.</span>
+        </div>
+
         <script src="public/js/contact.js"></script>
     </body>
 </html>

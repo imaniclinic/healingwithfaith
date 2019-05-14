@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bulma Carousel</title>
+    <title>Imani Clinic</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
     <link rel="stylesheet" href="../public/css/mybulma/node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/public/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <style>
@@ -88,13 +88,12 @@
 
 
 <body>
-
     <div id="includedContent"></div>
     <script> 
         $(function(){
           $("#includedContent").load("navbar.handlebars"); 
         });
-      </script> 
+    </script> 
 
     <div class='hero-carousel carousel-animate-slide'>
         <div class='carousel-container'>
@@ -153,11 +152,14 @@
         </div>
     </div>
     <section id="text" class="section">
-    Imani Clinic is open every Saturday from 9:00 AM to 1:00 PM, and we generally see 10-15 patients--usually, at least half are Spanish-speaking. Unlike the other clinics, we run as a "weekend extension" of the Sacramento County primary care facility. The clinic is staffed by undergraduates who do intake (checking height, weight and vital signs), lab work and create patient charts, and by medical students who see patients under the supervision of 1-2 preceptor physicians. Clinic affairs are managed by the undergraduate board which works under the supervision of 4 medical student co-directors.  
+        Imani Clinic is open every Saturday from 9:00 AM to 1:00 PM, and we generally see 10-15 patients--usually, at least half are Spanish-speaking. Unlike the other clinics, we run as a "weekend extension" of the Sacramento County primary care facility. The clinic is staffed by undergraduates who do intake (checking height, weight and vital signs), lab work and create patient charts, and by medical students who see patients under the supervision of 1-2 preceptor physicians. Clinic affairs are managed by the undergraduate board which works under the supervision of 4 medical student co-directors.  
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@3.0.0/dist/js/bulma-carousel.min.js"></script>
+    <div class="endBlock">
+        <span>Copyright © Imani Clinic. All rights reserved.</span>
+    </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@3.0.0/dist/js/bulma-carousel.min.js"></script>
     <script>
         window.onload = function () {
             var carousels = bulmaCarousel.attach();

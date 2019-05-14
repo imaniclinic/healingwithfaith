@@ -5,82 +5,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Imani Clinic</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+	<!--??-->
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-        <link rel="stylesheet" href="about.css">
+	<!--CSS-->
+        <link rel="stylesheet" href="../public/css/about.css">
+	<!--Open Sans-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" >        
+        <!--Open Sans Condensed-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<!--Navbar-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
-        <section class="hero is-dark">
-        <!-- Hero head: will stick at the top -->
-            <div class="hero-head">
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <a class="navbar-item">
-                                Imani Clinic
-                            </a>
-                        </div>
-                        <div id="navbarMenuHeroA" class="navbar-menu">
-                            <div class="navbar-end">
-                                <a class="navbar-item">
-                                    Home
-                                </a>
-                                <a class="navbar-item">
-                                    About Us
-                                </a>
-                                <a class="navbar-item">
-                                    Events
-                                </a>
-                                <a class="navbar-item">
-                                    Services
-                                </a>
-                                <a class="navbar-item">
-                                    Get Involved
-                                </a>
-                                <a class="navbar-item">
-                                    Partners
-                                </a>
-                                <a class="navbar-item">
-                                    Contact Us
-                                </a>
-                                <a class="navbar-item">
-                                    Donate
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </section>
-        <section class="hero">
-            <!-- Hero content: will be in the middle -->
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <h1 class="title is-size-1 has-text-white">
-                        WHO WE ARE
-                    </h1>
-                </div>
-            </div>
-        </section>
+       <!--navbar-->
+       <div id="includedContent"></div>
+        <script> 
+            $(function(){
+                $("#includedContent").load("navbar.handlebars"); 
+            });
+        </script>
+	<div class="main-title"> WHO WE ARE </div>
         <section id="text" class="section">
             <p><b>Imani</b>, a Swahili word meaning "faith", was selected partially for the African philosophy of community embodied in the principles of Kwanzaa, an African-American year-end tradition. The word also represents the faith that we as students have in the strength and worthiness of our communities, as well as the faith we hope to foster within those communities of the ability of the health care system to address their medical needs and social realities. </p>
         </section>
-<!--        <section id="text" class="section"></section>-->
-        <section id="subheading" class="section">
-            <div class="container">
-                <h1 class="title has-text-white">HISTORY</h1>
-            </div>
-        </section>
+	<div class="container is-fluid">
+                <h1 class="title has-text-white">OUR STORY</h1>
+	</div>
         <section id="text" class="section">
             <p>Imani Clinic was the brainchild of UC Davis medical students in the Student National Medical Association (SNMA), an organization dedicated to improving outcomes--medical, academic, and social--among members of the African-American community. Ten years of planning, research, and negotiations were initiated because students became concerned about the staggering and persistent morbidity and mortality from hypertension, heart disease, cancer, and inadequate prenatal care among African-Americans. SNMA redoubled its efforts in light of the apparent demise of Health Care Reform, and the serious threat to universal access to health care posed by Proposition 187. The clinic opened on October 22, 1994, in the heart of the Oak Park neighborhood in South Sacramento. This site was selected because of the ethnic diversity of the community--recent census data indicates that 57 percent of the population are members of minority groups and 80 percent of this community can be classified as working poor or unemployed. Most of these people have no health insurance.</p>
         </section>
-        <section id="subheading" class="section">
-            <div class="container">
+	<div class="container is-fluid">
                 <h1 class="title has-text-white has-text-right">TODAY</h1>
-            </div>
-        </section>
+	</div>
         <section id="text" class="section">
             <p>Imani Clinic is open every Saturday from 9:00 AM to 1:00 PM, and we generally see 10-15 patients--usually, at least half are Spanish-speaking. Unlike the other clinics, we run as a "weekend extension" of the Sacramento County primary care facility. The clinic is staffed by undergraduates who do intake (checking height, weight and vital signs), lab work and create patient charts, and by medical students who see patients under the supervision of 1-2 preceptor physicians. Clinic affairs are managed by the undergraduate board which works under the supervision of 4 medical student co-directors.</p>
         </section>
+	<div class="endBlock">
+            <span>Copyright © Imani Clinic. All rights reserved.</span>
+        </div>
     </body>
 </html>
 <!--
