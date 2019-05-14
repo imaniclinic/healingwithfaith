@@ -1,6 +1,19 @@
   i {
     padding-bottom: 20%; 
   }
+
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .endBlock {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 30px;
+  }
   
   p {
     font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -39,6 +52,7 @@
   .card {
     width: 60%;
     height: 100%;
+    border-radius: 15px;
   }
   
   .colored_box {
@@ -79,7 +93,7 @@
     padding-bottom: 2%;
     color: #4A4A4A;
   }
-  
+
   .is-pulled-left {
     padding-left: 6.5%;
   }
@@ -93,7 +107,7 @@
     padding-top: 3%;
     padding-bottom: 2%;
   }
-  
+
   .subtitle {
       color: #4a4a4a;
       font-size: 1.25rem;
