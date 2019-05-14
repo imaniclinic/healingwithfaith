@@ -20,7 +20,7 @@ html, body {
 #text {
   padding: 40px 60px;
   background: white;
-  font-color: #4A4A4A;
+  color: #4A4A4A;
   font-size: 16px;
 }
 
@@ -41,7 +41,8 @@ html, body {
 }
 
 .title.has-text-white{
-  font: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+  font-family: "Open Sans Condensed", sans-serif;
+  /*font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
   font-weight: 600;
   font-size: 2rem;
   line-height: 1.125;
