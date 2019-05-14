@@ -1,32 +1,32 @@
 .opensans-condensed {
-    font-family: 'Open Sans' sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans' sans-serif !important;
+    font-weight: 300 !important;
 }
 
 .opensans-header {
-    font-family: 'Open Sans' sans-serif;
-    font-weight: 800;
+    font-family: 'Open Sans' sans-serif !important;
+    font-weight: 800 !important;
 }
 
 .opensans-contact-us {
-    font-family: 'Open Sans' sans-serif;
-    font-weight: 700;
-    font-size: 4rem;
+    font-family: 'Open Sans' sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 4rem !important;
 }
 
 .opensans-body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
 }
 
 .opensans-light {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
 }
 
 .image-container{
-    width: 50%;
-    height: 100%;
+    width: 50% !important;
+    height: 100% !important;
 }
 
 .image {
@@ -36,7 +36,7 @@
 }
 
 .red {
-    color: #922B21;
+    color: #922B21 !important;
 }
 
 .uppercase {
@@ -72,6 +72,8 @@
 }
 
 .section {
-    width: 100vw;
+    width: 100vw !important;
+    height: 100vh !important;
 }
+
 
