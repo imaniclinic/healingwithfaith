@@ -86,14 +86,27 @@
     </style>
 </head>
 
+ <style>
+        .hero-carousel .carousel-navigation.is-overlay .carousel-nav-right {
+            right: 30px;
+        }
+
+        .hero-carousel .carousel-navigation.is-overlay .carousel-nav-left {
+            left: 30px;
+      }
+    </style>
+</head>
+
 
 <body>
-    <div id="includedContent"></div>
+
+        <div id="includedContent"></div>
     <script> 
         $(function(){
           $("#includedContent").load("navbar.handlebars"); 
         });
     </script> 
+    
 
     <div class='hero-carousel carousel-animate-slide'>
         <div class='carousel-container'>
@@ -101,9 +114,8 @@
                 <section class="hero is-large">
                     <div class="hero-body">
                         <div class="container has-text-centered">
-                            <h1 class="title">
-                                Healing Begins with 
-                            </h1>
+                            <p class="subtitle is-1 has-text-white">Healing Begins with Faith</p>
+                            <p class="subtitle is-4 has-text-white">We believe in personalized care based on your health concerns. We accept all patients regardless of health insurance. <br>Scroll down for more info.</p>
                         </div>
                     </div>
                 </section>
@@ -112,9 +124,8 @@
                 <section class="hero is-large">
                     <div class="hero-body">
                         <div class="container has-text-centered">
-                            <h1 class="title">
-                                Expose
-                            </h1>
+                            <p class="subtitle is-1 has-text-white">Schedule an Appontment</p>
+                            <p class="subtitle is-4 has-text-white">We typically have same-day appointment availability. Call (916) 475-9582 for scheduling.</p>
                         </div>
                     </div>
                 </section>
@@ -123,9 +134,8 @@
                 <section id="hoe" class="hero is-large">
                     <div class="hero-body">
                         <div class="container has-text-centered">
-                            <h1 class="title">
-                                Provide
-                            </h1>
+                            <p class="subtitle is-1 has-text-white">All Are Welcome!</p>
+                            <p class="subtitle is-4 has-text-white">We welcome all new patients and walk-ins. We also offer referrals for services that we cannot provide. </p>
                         </div>
                     </div>
                 </section>>
@@ -134,9 +144,8 @@
                 <section class="hero is-large">
                     <div class="hero-body">
                         <div class="container has-text-centered">
-                            <h1 class="title">
-                                Foster
-                            </h1>
+                            <p class="subtitle is-1 has-text-white">Imani Bolt 2019 is NOW LIVE!</p>
+                            <p class="subtitle is-4 has-text-white">First 100 registrations will receive a free Bolt T-Shirt! Sign up here!</p>
                         </div>
                     </div>
                 </section>
@@ -151,21 +160,77 @@
             </div>
         </div>
     </div>
-    <section id="text" class="section">
-        Imani Clinic is open every Saturday from 9:00 AM to 1:00 PM, and we generally see 10-15 patients--usually, at least half are Spanish-speaking. Unlike the other clinics, we run as a "weekend extension" of the Sacramento County primary care facility. The clinic is staffed by undergraduates who do intake (checking height, weight and vital signs), lab work and create patient charts, and by medical students who see patients under the supervision of 1-2 preceptor physicians. Clinic affairs are managed by the undergraduate board which works under the supervision of 4 medical student co-directors.  
+  <div class="content">
+    <section id="text">
+    Imani Clinic is open every Saturday from 9:00 AM to 1:00 PM, and we generally see 10-15 patients--usually, at least half are Spanish-speaking. Unlike the other clinics, we run as a "weekend extension" of the Sacramento County primary care facility. The clinic is staffed by undergraduates who do intake (checking height, weight and vital signs), lab work and create patient charts, and by medical students who see patients under the supervision of 1-2 preceptor physicians. Clinic affairs are managed by the undergraduate board which works under the supervision of 4 medical student co-directors.
     </section>
-
-    <div class="endBlock">
-        <span>Copyright © Imani Clinic. All rights reserved.</span>
+  </div>
+  <div class="content">
+    <h2 class="title is-2">Our Mission</h2>
+    <section id="text">
+    Imani Clinic’s mission statement is defined by four pillars:
+    </section>
+  
+    <section id="text">
+      To <strong>provide</strong> preventive and episodic primary health care to an underserved community without regard to address (or lack of one), national/ethnic origin, immigration status, language, religion, or ability to pay
+    </section>
+  
+    <section id="text">
+    To <strong>expose</strong> medical students early in their training to the complexities of providing community-based care to a diverse population in which social, economic, and medical issues are intimately intertwined
+    </section>
+  
+    <section id="text">
+    To <strong>provide</strong> undergraduate students an opportunity to experience first-hand health care delivery in a community-based setting
+    </section>
+  
+    <section id="text">
+    To <strong>foster</strong> early and lasting relationships between students, health-care professionals, and the community
+    </section>
+  </div>
+  <div class="content">
+    <h2 class="title is-2">Our Services</h2>
+    <div class="columns">
+      <div class="column">
+        Primary Care
+      </div>
+      <div class="column">
+        Full Physical Exams
+      </div>
+      <div class="column">
+        Preventive Health Care
+      </div>
+      <div class="column">
+        Prescription Refills
+      </div>
+        <div class="column">
+        Health Education
+      </div>
+        <div class="column">
+        Pap Smears
+      </div>
+      <div class="column">
+      Pregnancy Testing
+      </div>
+      <div class="column">
+      HIV/STD Testing
+      </div>
+      <div class="column">
+      Birth Control Prescriptions
+      </div>
     </div>
-
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@3.0.0/dist/js/bulma-carousel.min.js"></script>
     <script>
         window.onload = function () {
             var carousels = bulmaCarousel.attach();
         }
     </script>
-
+  <script> 
+        $(function(){
+          $("#includedContent").load("navbar.html");
+          $("#footer").load("footer.html");
+        });
+      </script> 
 </body>
 
 </html>
