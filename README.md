@@ -7,7 +7,7 @@ Redesign of the Imani Clinic Website.
   - git checkout final
 ### Download Node.js
 - You need node.js and npm
-  - [https://nodejs.org/en/](Download them here) 
+  - [Download them here](https://nodejs.org/en/) 
   - Open a new command prompt or terminal and type "node --version" to make sure you have them installed
 - Navigate to the project folder (/ImaniClinic) in terminal or command line
 - Run 'npm install' to get all additional dependencies
@@ -27,7 +27,7 @@ Redesign of the Imani Clinic Website.
 - Server code is in app.js
 ### When you're done making changes, make a pull request
 - Double check to make sure everything works on your branch before making a pull request
-- Go [https://github.com/samrcwaters/ImaniClinic/pulls](here), click "make pull request" and select the "from" branch to be <name_of_your_branch> (whatever you called your branch), and the destination to be "final".
+- Go [here](https://github.com/samrcwaters/ImaniClinic/pulls), click "make pull request" and select the "from" branch to be <name_of_your_branch> (whatever you called your branch), and the destination to be "final".
 - Resolve any merge conflicts, click "commit merge", and you're done!
 
 ## Tools Used
