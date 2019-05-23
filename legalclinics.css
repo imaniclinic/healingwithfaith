@@ -164,13 +164,6 @@ body {
     padding-right: 4%;
 }
 
-#subheadingBlack {
-    background: black;
-}
-#subheadingRed {
-    background: #831b05;
-}
-
 .endBlock {
     
     background-color: black;
@@ -178,6 +171,12 @@ body {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     padding: 30px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color; #4A4A4A;
 }
 
 ul {
