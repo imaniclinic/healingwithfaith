@@ -160,8 +160,10 @@ body {
 }
 
 #text {
-    padding-left: 4%;
-    padding-right: 4%;
+  padding: 40px 60px;
+  background: white;
+  color: #4A4A4A;
+  font-size: 16px;
 }
 
 .endBlock {
