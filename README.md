@@ -16,6 +16,8 @@ Redesign of the Imani Clinic Website.
   - Go to "localhost:5000/<name_of_view>" to see whichever page you're looking for (ex: 'localhost:5000/contact')
 
 ## Contribute
+### Make your own branch (don't commit straight to "final")
+- git checkout -b <name_of_your_branch>
 ### HTML pages
 - Put all HTML pages go in /views/
   - rename them with the file extension ".handlebars" instead of ".html" and you'll be good to go.
@@ -23,6 +25,10 @@ Redesign of the Imani Clinic Website.
 ### CSS files:
 - All CSS styles and JavaScript are located in `public/css/` and `public/js/`
 - Server code is in app.js
+### When you're done making changes, make a pull request
+- Double check to make sure everything works on your branch before making a pull request
+- Go [https://github.com/samrcwaters/ImaniClinic/pulls](here), click "make pull request" and select the "from" branch to be <name_of_your_branch> (whatever you called your branch), and the destination to be "final".
+- Resolve any merge conflicts, click "commit merge", and you're done!
 
 ## Tools Used
 - HTML5
