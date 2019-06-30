@@ -66,6 +66,10 @@
     text-align: center;
   }
 
+  .colored_box_alt_img {
+    background-image: url('../images/cooking.png');
+  }
+
   .container {
     padding-top: 2%;
     padding-bottom: 2%;

@@ -1,6 +1,6 @@
 p{
     font-family: 'Open Sans Condensed';
-    font-size: 12pt
+    font-size: 1.2rem;
 }
 
 .endBlock {
@@ -9,4 +9,12 @@ p{
     text-align: center;
     font-family: "Open Sans", sans-serif;
     padding: 30px;
+}
+
+.subtitle {
+    text-shadow: 1px 1px black;
+}
+
+.red-bkg {
+    background-color: #922b21;
 }
